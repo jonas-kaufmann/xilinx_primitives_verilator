@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module LUT5
 #(
     parameter [31:0] INIT = 32'h00000000

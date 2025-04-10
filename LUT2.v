@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module LUT2
 #(
     parameter [3:0] INIT = 4'b0000

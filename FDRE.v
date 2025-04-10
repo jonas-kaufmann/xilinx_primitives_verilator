@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module FDRE
 #(
     parameter [0:0] IS_C_INVERTED = 1'b0,

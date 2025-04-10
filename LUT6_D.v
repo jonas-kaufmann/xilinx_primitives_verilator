@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module LUT6_D
 #(
     parameter [63:0] INIT = 64'h0000000000000000

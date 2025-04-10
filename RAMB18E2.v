@@ -11,6 +11,7 @@
 
 /* verilator lint_off UNUSED */
 /* verilator coverage_off */
+/* verilator tracing_off */
 module RAMB18E2
 #(
     // Cascading mode

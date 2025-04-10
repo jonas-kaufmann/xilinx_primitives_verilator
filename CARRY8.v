@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module CARRY8
 #(
     parameter CARRY_TYPE = "SINGLE_CY8" // "SINGLE_CY8", "DUAL_CY4"

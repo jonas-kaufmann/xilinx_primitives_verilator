@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module FIFO36E2
 #(
     // "NONE", "FIRST", "LAST", "MIDDLE", "PARALLEL"

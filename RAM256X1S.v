@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module RAM256X1S
 #(
     parameter [255:0] INIT = 256'h0,

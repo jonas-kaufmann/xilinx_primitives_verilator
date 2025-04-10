@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module IBUFDS
 #(
     parameter CAPACITANCE      = "DONT_CARE",

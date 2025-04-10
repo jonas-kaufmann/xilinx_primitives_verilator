@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module RAM64M
 #(
     parameter  [63:0] INIT_A           = 64'h0,

@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module MUXF8_L
 (
     input  wire I0, I1,

@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module RAM32X1S
 #(
     parameter [31:0] INIT = 32'h0,

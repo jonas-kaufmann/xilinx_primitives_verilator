@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module LDPE
 #(
     parameter INIT = 1'b0

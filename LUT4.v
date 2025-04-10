@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module LUT4
 #(
     parameter [15:0] INIT = 16'h0000

@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module SRLC16E
 #(
     parameter [15:0] INIT = 16'h0,

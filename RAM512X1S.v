@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module RAM512X1S
 #(
     parameter [511:0] INIT = 512'h0,

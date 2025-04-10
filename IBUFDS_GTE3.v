@@ -10,6 +10,7 @@
 //
 
 /* verilator coverage_off */
+/* verilator tracing_off */
 module IBUFDS_GTE3
 #(
     parameter [0:0] REFCLK_EN_TX_PATH  = 1'b0,
