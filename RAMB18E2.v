@@ -129,6 +129,7 @@ module RAMB18E2
     parameter integer WRITE_WIDTH_A       = 0,
     parameter integer WRITE_WIDTH_B       = 0
 )
+/* verilator tracing_on */
 (
     output wire [15:0] CASDOUTA,
     output wire [15:0] CASDOUTB,
@@ -175,6 +176,7 @@ module RAMB18E2
     input wire   [1:0] WEA,
     input wire   [3:0] WEBWE
 );
+/* verilator tracing_off */
     // ========================================================================
     // Read / write helper functions
     // ========================================================================

@@ -76,6 +76,7 @@ module RAMB8BWER
     parameter WRITE_MODE_A        = "WRITE_FIRST", // "WRITE_FIRST", "READ_FIRST", "NO_CHANGE"
     parameter WRITE_MODE_B        = "WRITE_FIRST"  // "WRITE_FIRST", "READ_FIRST", "NO_CHANGE"
 )
+/* verilator tracing_on */
 (
     // Port A (TDP) / Write port (SDP)
     input  wire        RSTA,        // Reset
@@ -100,6 +101,7 @@ module RAMB8BWER
     output wire  [1:0] DOPBDOP,     // Parity out
     output wire [15:0] DOBDO        // Data out
 );
+/* verilator tracing_off */
     
     // ========================================================================
     // Synchronous resets

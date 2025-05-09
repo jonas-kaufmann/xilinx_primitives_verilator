@@ -19,6 +19,7 @@ module RAM32M
     parameter  [63:0] INIT_D           = 64'h0,
     parameter   [0:0] IS_WCLK_INVERTED = 1'b0
 )
+/* verilator tracing_on */
 (
     // Write clock
     input  wire       WCLK,
@@ -41,6 +42,7 @@ module RAM32M
     input  wire [1:0] DID,
     output wire [1:0] DOD
 );
+/* verilator tracing_off */
     // 64 x 4-bit Select RAM
     reg [63:0] _r_mem_a;
     reg [63:0] _r_mem_b;

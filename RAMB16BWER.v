@@ -113,6 +113,7 @@ module RAMB16BWER
     // FPGA type
     parameter SIM_DEVICE          = "SPARTAN3ADSP"  // "SPARTAN3ADSP", "SPARTAN6"
 )
+/* verilator tracing_on */
 (
     // Port A
     input  wire        RSTA,        // Reset
@@ -137,6 +138,7 @@ module RAMB16BWER
     output wire  [3:0] DOPB,        // Parity out
     output wire [31:0] DOB          // Data out
 );
+/* verilator tracing_off */
     
     // ========================================================================
     // Synchronous resets

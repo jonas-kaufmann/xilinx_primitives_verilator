@@ -16,6 +16,7 @@ module RAM128X1D
     parameter [127:0] INIT = 128'h0,
     parameter   [0:0] IS_WCLK_INVERTED = 1'b0
 )
+/* verilator tracing_on */
 (
     // Write clock
     input  wire       WCLK,
@@ -31,6 +32,7 @@ module RAM128X1D
     output wire       SPO,
     output wire       DPO
 );
+/* verilator tracing_off */
     // 128 x 1-bit Select RAM
     reg  [127:0] _r_mem;
     

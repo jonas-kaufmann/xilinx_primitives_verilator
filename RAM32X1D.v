@@ -16,6 +16,7 @@ module RAM32X1D
     parameter  [31:0] INIT = 32'h0,
     parameter   [0:0] IS_WCLK_INVERTED = 1'b0
 )
+/* verilator tracing_on */
 (
     // Write clock
     input  wire       WCLK,
@@ -39,6 +40,7 @@ module RAM32X1D
     output wire       SPO,
     output wire       DPO
 );
+/* verilator tracing_off */
     // Read / Write address
     wire  [4:0] _w_A    = { A4, A3, A2, A1, A0 };
     // Read address

@@ -16,6 +16,7 @@ module RAM256X1S
     parameter [255:0] INIT = 256'h0,
     parameter   [0:0] IS_WCLK_INVERTED = 1'b0
 )
+/* verilator tracing_on */
 (
     // Write clock
     input  wire       WCLK,
@@ -28,6 +29,7 @@ module RAM256X1S
     // Data out
     output wire       O
 );
+/* verilator tracing_off */
     // 256 x 1-bit Select RAM
     reg  [255:0] _r_mem;
     
